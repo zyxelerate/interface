@@ -29,6 +29,6 @@ public class MovableRectangle implements Movable{
 	}
 
 	public String toString(){
-		return "x1-coord: " + topLeft.x + " --- y1-coord: " + topLeft.y + " -- x2-coord: " + bottomRight.x + "--- y2-coord: " + bottomRight.y;
+		return String.format("x1-coord: %d --- y1-coord: %d -- x2-coord: %d --- y2-coord: %d", topLeft.x,topLeft.y,bottomRight.x,bottomRight.y);
 	}
 }
