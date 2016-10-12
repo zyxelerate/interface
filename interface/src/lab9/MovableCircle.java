@@ -25,6 +25,6 @@ public class MovableCircle implements Movable{
 		center.x += center.xSpeed;
 	}
 	public String toString(){
-		return "x-coord: " + center.x + " --- y-coord: " + center.y + " --- radius: " + radius;
+		return String.format("x-coord: %d --- y-coord: %d --- radius %d", center.x,center.y,radius);
 	}
 }
