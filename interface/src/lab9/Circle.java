@@ -13,6 +13,6 @@ public class Circle implements GeometricObject{
 		return Math.PI*radius*radius;
 	}
 	public String toString(){
-		return "radius: " + radius;
+		return String.format("radius: %.2f", radius);
 	}
 }
