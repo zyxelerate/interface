@@ -27,6 +27,6 @@ public class MovablePoint implements Movable{
 	}
 
 	public String toString(){
-		return "x-coord: " + this.x + " --- y-coord: " + this.y;
+		return String.format("x-coord: %d --- y-coord: %d", this.x, this.y);
 	}
 }
